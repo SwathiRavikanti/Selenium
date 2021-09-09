@@ -10,7 +10,7 @@ import org.openqa.selenium.WebElement;
 
 import java.util.List;
 
-public class SearchTests extends CommonFunctions {
+public class SearchSteps extends CommonFunctions {
 
     @Given("I am on Home page {string}")
     public void i_am_on_home_page(String url) {
