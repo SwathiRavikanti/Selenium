@@ -8,7 +8,7 @@ import org.openqa.selenium.By;
 
 import java.sql.Driver;
 
-public class CategoryTests extends CommonFunctions {
+public class CategorySteps extends CommonFunctions {
 
     @When("I click on category {string}")
     public void i_click_on_category(String button) {

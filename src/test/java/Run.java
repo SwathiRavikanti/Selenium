@@ -3,7 +3,7 @@ import io.cucumber.junit.CucumberOptions;
 import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features=".",tags ="@Category",dryRun=true)
+@CucumberOptions(features=".",tags ="@login",dryRun=true)
 
 public class Run {
 }
